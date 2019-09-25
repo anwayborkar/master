@@ -1,0 +1,28 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #008CBA;
+   color: #FFF;
+   text-align: center;
+}
+.container{width: 80%;margin: auto;padding: 0}
+.footer-content ul{margin: 0;padding: 10px 0;list-style:none;}
+.footer-content ul li{margin: 0;padding: 0;list-style:none;display: inline-block;}
+.contentPhone{display: block;position: relative;color: #FFF;font-size: 16px;text-decoration: none;padding-right: 15px}
+.contentPhone:before{content: 'Mobile :';display: inline-block;font-size: 15px;color: #d4d4d4;}
+.contentEmail{display: block;position: relative;color: #FFF;font-size: 16px;text-decoration: none;padding-right: 15px}
+.contentEmail:before{content: 'Email :';display: inline-block;font-size: 15px;color: #d4d4d4;}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 15px;
+    /* line-height: 25px; */
+    border-radius: 4px;
+    margin: 0;
+}
+

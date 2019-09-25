@@ -1,0 +1,71 @@
+*{margin:0;padding:0;}
+html,
+ body, 
+input 
+{
+  font-family: arial;
+}
+#index-form {
+  padding: 0;
+  max-width: 320 px;
+  margin: 0 auto;
+}
+#index-form h1 {
+ text-align: center;
+  font-size: 2.0em;
+  margin: 0;
+  color: #008CBA;
+}
+#index-form h2 {
+ text-align: center;
+    margin: 0;
+  color: black;
+}
+#index-form p {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  color: black;
+  }
+  .banner{
+
+   width:100%;
+    height: 500px;
+    background-image:url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/2266989/600/400/m2/fpnw/wm1/construction-06-.jpg?1486853512&s=307ac4b91966ed01e23dcc8fcfb7dcb4');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.button{
+	    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    display: block;
+    background-color: #008CBA;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 150px;
+   
+    color: #fff;
+    text-align: center;
+    
+    
+
+
+}
